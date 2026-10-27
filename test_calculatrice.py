@@ -1,4 +1,4 @@
 import pytest
-from calculatrice import addition, soustraction, multiplication, division
+from calculatrice import addition
 def test_addition():
 	assert addition(2, 3) == 5
